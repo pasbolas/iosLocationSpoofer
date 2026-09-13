@@ -1,0 +1,20 @@
+{
+  "name": "iphone-location-simulator",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^3.1.2",
+    "@types/leaflet": "^1.9.12",
+    "svelte": "^4.2.19",
+    "vite": "^5.4.2"
+  }
+}

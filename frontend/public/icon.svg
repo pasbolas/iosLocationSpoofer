@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#090d16" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="50%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+    <linearGradient id="ring" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+  </defs>
+  <!-- Background Rounded Rect -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)" />
+  <!-- Outer Glow Ring -->
+  <circle cx="256" cy="256" r="180" fill="none" stroke="url(#accent)" stroke-width="6" opacity="0.4" stroke-dasharray="16 12" />
+  <circle cx="256" cy="256" r="140" fill="none" stroke="url(#ring)" stroke-width="8" opacity="0.6" />
+  <!-- Pin Icon -->
+  <path d="M256 120 C194 120 144 170 144 232 C144 316 256 408 256 408 C256 408 368 316 368 232 C368 170 318 120 256 120 Z" fill="url(#accent)" />
+  <!-- Center Dot -->
+  <circle cx="256" cy="232" r="44" fill="#ffffff" />
+  <circle cx="256" cy="232" r="24" fill="#3b82f6" />
+</svg>
